@@ -6,8 +6,7 @@ Group Contibutors :
 3. Kezia Patricia Fadli
 
 ## [Business Problem Analytics:](https://example.com)
-Industri lodging(Perhotelan) di Portugal mengalami tantangan besar terkait pembatalan reservasi pelanggan, yang berdampak pada penurunan revenue dan efisiensi operasional. memiliki dataset yang telah diekstrak dari database hotel (Property Management System (PMS) [6], yang mencatat berbagai aspek reservasi, termasuk status pembatalan, harga kamar (ADR), lama menginap, dan lainnya. 
-Industri perhotelan termasuk dalam sektor lodging, yang berperan penting dalam menyediakan akomodasi bagi wisatawan domestik maupun internasional. 
+Terdapat sebuah perusahaan yang bergerak dibidang hospitality industry-khususnya perhotelan-dan berlokasi di Portugal. memiliki dataset yang telah diekstrak dari database hotel (Property Management System (PMS) [6], yang mencatat berbagai aspek reservasi, termasuk status pembatalan, harga kamar (ADR), lama menginap, dan lainnya. Industri perhotelan termasuk dalam sektor lodging, yang berperan penting dalam menyediakan akomodasi bagi wisatawan domestik maupun internasional. 
 
 Dari laporan industry Crishty & CO, 2023 [3]. Sebelumnya, lebih dari 28.4 juta wisatawan mengunjungi Portugal, berkontribusi hampir 16% terhadap GDP negara. 
 Wilayah seperti Lisbon, Algarve, dan Madeira menjadi pusat wisata utama, dengan lebih dari 70% dari total menginap berasal dari turis internasional. 

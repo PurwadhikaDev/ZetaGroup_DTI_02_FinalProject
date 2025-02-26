@@ -1,0 +1,53 @@
+**<big> HOTEL BOOKING CANCELLATION PREDICTION </big>**
+
+Group Contibutors :
+1. Ergia Lativolia Putri Subiyantari
+2. Diah Purnamaningsih Mulyawan
+3. Kezia Patricia Fadli
+
+## BUSINESS PROBLEM ANALYTICS 
+Industri lodging(Perhotelan) di Portugal mengalami tantangan besar terkait pembatalan reservasi pelanggan, yang berdampak pada penurunan revenue dan efisiensi operasional. 
+Dataset yang digunakan berasal dari Property Management System (PMS) [6], yang mencatat berbagai aspek reservasi, termasuk status pembatalan, harga kamar (ADR), lama menginap, dan lainnya. 
+Industri perhotelan termasuk dalam sektor lodging, yang berperan penting dalam menyediakan akomodasi bagi wisatawan domestik maupun internasional. 
+
+Dari laporan industry Crishty & CO, 2023 [3]. Sebelumnya, lebih dari 28.4 juta wisatawan mengunjungi Portugal, berkontribusi hampir 16% terhadap GDP negara. 
+Wilayah seperti Lisbon, Algarve, dan Madeira menjadi pusat wisata utama, dengan lebih dari 70% dari total menginap berasal dari turis internasional. 
+Perubahan tren wisata juga terlihat, Portugal telah melampaui Spanyol sebagai sumber utama wisatawan di Lisbon. 
+Laporan industry, "Staying Power”  memprediksi Occupancy Rate meningkat pada 2016 dan 2017 di Lisbon, tetapi hasil analisis kami justru menunjukkan penurunan, terutama di City Hotel. 
+Ada beberapa kemungkinan penyebabnya:
+•	Over-Supply Hotel: Lisbon mengalami lonjakan jumlah hotel baru, yang meningkatkan persaingan dan berdampak pada okupansi hotel tertentu.
+•	Perubahan Tren Wisatawan: Faktor event global, keamanan, dan ekonomi menggeser pola perjalanan, dengan preferensi lebih tinggi ke Resort Hotel dibanding City Hotel.
+
+Menurut laporan industry Staying Power, 2015 -2017[2], melaporkan jika, Portugal mengalami pertumbuhan ekonomi 1.6%-1.7%,dengan wisatawan meningkat akibat melemahnya Euro dan meningkatnya konektivitas penerbangan. 
+Namun, beberapa faktor global memengaruhi wisatawan, seperti: 
+- Ketidakpastian ekonomi seperti Brexit atau serangan teror dapat menyebabkan penurunan perjalanan bisnis, sehingga meningkatkan Cancellation Ratio di City Hotel (0.44) dan menurunkan Occupancy rgrowth (-11% di 2016, -6% di 2017).
+  Dalam analisis kami, City Hotel lebih terdampak oleh faktor global karena banyak wisatawannya adalah pebisnis atau peserta event internasional(Group).
+  Wisatawan "contract" dan "group" umumnya sudah merencanakan perjalanan jauh-jauh hari,
+  sehingga Cancellation Ratio di Resort Hotel lebih rendah (0.31) dan Occupancy rate lebih baik ( 67%-79%) dengan occupancy growth (-5% &  -10%).
+  Dalam analysis kami, Resort Hotel lebih stabil karena didukung oleh contract dan group hotel, yang cenderung tidak terlalu bergantung pada faktor ekonomi dan politik. 
+-	Fluktuasi mata uang (melemahnya Euro) seharusnya meningkatkan wisatawan dari luar zona Euro, tetapi dalam dataset kami, justru City Hotel mengalami penurunan okupansi.
+  Ini bisa terjadi jika wisatawan lebih memilih destinasi resort untuk liburan panjang dibanding perjalanan bisnis ke pusat kota. 
+
+Cancellation Rate di dataset kami mencapai 30% untuk city hotel dan 23.7% untuk resort, lebih RENDAH dibanding rata-rata global yang berkisar 33%-40% (Hospitalitytech, 2019)[3]. 
+Resort Hotel lebih stabil dengan Cancellation Ratio 0.31. Cancellation Rate yang tinggi di City Hotel bisa disebabkan oleh segmen wisatawan bisnis yang lebih fleksibel dalam mengubah rencana perjalanan. 
+Dan pada dataset kami Custoemr tyoe yang paling memepngaruhi adalah transient (customer flexible).
+
+Untuk Dampak Musiman (Seasonality) terhadap Occupancy Rate, pada;
+•	Peak Season (Sep-Nov) = Okupansi tinggi, terutama di Resort Hotel. Salah satu direct booking web Agarve resort Portugal, 
+pada awal musim gugur ini diadakan off season promo 15% dengan lead time of staying 5-6 hari [4]. 
+Dan september = October adalah waktu yang tepat untuk berlibur ke Agarve karean pergantian dari musim dingin[5].
+•	Low Season (Apr-Jun) = Stabil tetapi lebih rendah dibanding puncak wisata.
+•	Off-Season (Des & Ags) pada musim dingin dan akhir musim panas = Okupansi turun signifikan, terutama di City Hotel.
+•	ADR meningkat di City Hotel dengan perolehan , 32.5 EUR pada 2015, 36.2 EUR dan 2016, dan 38.9EUR pada 2017, kemungkinan karena strategi harga yang terlalu tinggi, 
+sehingga okupansi menurun sekitar -11% & -5%. Sedangkankan pada laporan staying power 2015-2017 [2], ADR Lisbon(jika didataset kami city hotel adalah data dari beberapa atau salah satu hotel di Lisbon)
+mengalami peningkatan 95-99 EUR, dikarenakan tahun 2016 terdapat big event seperti s the Web Summit (wrested from Dublin) and Diabetes, as well as new air routes,
+should drive demand further putting pressure on ADR and pushing occupancy to record high levels. Accordingly we expect another good year in 2016. Hal ini mungkin karena 
+
+
+Sources :
+[1] [Nama Tampil]([https://example.com](https://assets-eu-01.kc-usercontent.com/6bb3df3c-b648-01ae-2357-22fa5c7d5f19/93b732c7-e612-4890-88f4-31d2996a52eb/Portugal%20Hotel%20Market%20Performance%202023))
+[2] https://www.pwc.ch/en/publications/2016/european-cities-hotel-forecast-2016-2017.pdf 
+[3] https://hospitalitytech.com/global-cancellation-rate-hotel-reservations-reaches-40-average 
+[4] https://algarveresorts.net/en/promocoes/ver/6
+[5] https://myportugalholiday.com/portugal-guides/portugal-september.html#google_vignette
+[6] https://www.sciencedirect.com/science/article/pii/S2352340918315191 

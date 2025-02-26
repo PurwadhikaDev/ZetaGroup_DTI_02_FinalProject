@@ -1,4 +1,4 @@
-**<big> HOTEL BOOKING CANCELLATION PREDICTION </big>**
+# **<big> HOTEL BOOKING CANCELLATION PREDICTION </big>**
 
 Group Contibutors :
 1. Ergia Lativolia Putri Subiyantari
@@ -58,7 +58,7 @@ Jadi yang akan kita lakukan adalah menganalisis data untuk menemukan pola yang m
 Kemudian kita akan membangun model supervised machine learning klasifikasi yang akan membantu perusahaan untuk dapat memprediksi pelanggan yang akan membatalkan pesanan atau tidak.
 
 ## [Metric Evaluation:](https://example.com)
-Type I Error: False Positive Kondisi di mana pelanggan terprediksi membatalkan pesanan padahal kenyataannya tidak membatalkan pesanan Konsekuensinya: promosi tidak tepat sasaran, sehingga revenue tidak maksimal. Tanpa mengadakan marketing, pihak hotel bisa mendapatkan 101 USD.
+Type I Error: False Positive Kondisi di mana pelanggan terprediksi membatalkan pesanan padahal kenyataannya tidak membatalkan pesanan Konsekuensinya: promosi tidak tepat sasaran, sehingga revenue tidak maksimal. Tanpa mengadakan marketing, pihak hotel bisa mendapatkan 101 EUR.
 
 Type II Error: False Negative Kondisi di mana pelanggan terprediksi tidak membatalkan pesanan padahal kenyataannya membatalkan pesanan Konsekuensinya: pihak hotel kehilangan potential pelanggan dan tentu saja berdampak pada kehilangan revenue. Berdasarkan dataset ini, rata-rata biaya marketing adalah 10.07 - 10.14 EUR. Sehingga, untuk worst case-nya pihak hotel mendapatkan ADR sekitar 113.2EUR tanpa biaya marketing.
 

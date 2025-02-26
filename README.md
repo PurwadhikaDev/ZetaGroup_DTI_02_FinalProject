@@ -38,11 +38,31 @@ pada awal musim gugur ini diadakan off season promo 15% dengan lead time of stay
 Dan september = October adalah waktu yang tepat untuk berlibur ke Agarve karean pergantian dari musim dingin[5].
 •	Low Season (Apr-Jun) = Stabil tetapi lebih rendah dibanding puncak wisata.
 •	Off-Season (Des & Ags) pada musim dingin dan akhir musim panas = Okupansi turun signifikan, terutama di City Hotel.
-•	ADR meningkat di City Hotel dengan perolehan , 32.5 EUR pada 2015, 36.2 EUR dan 2016, dan 38.9EUR pada 2017, kemungkinan karena strategi harga yang terlalu tinggi, 
-sehingga okupansi menurun sekitar -11% & -5%. Sedangkankan pada laporan staying power 2015-2017 [2], ADR Lisbon(jika didataset kami city hotel adalah data dari beberapa atau salah satu hotel di Lisbon)
+•	ADR meningkat di City Hotel dengan perolehan , 32.5 EUR pada 2015, 36.2 EUR dan 2016, dan 38.9EUR pada 2017, kemungkinan karena strategi harga yang terlalu tinggi, sehingga okupansi menurun sekitar -11% & -5%. Sedangkankan pada laporan staying power 2015-2017 [2], ADR Lisbon(jika didataset kami city hotel adalah data dari beberapa atau salah satu hotel di Lisbon)
 mengalami peningkatan 95-99 EUR, dikarenakan tahun 2016 terdapat big event seperti s the Web Summit (wrested from Dublin) and Diabetes, as well as new air routes,
-should drive demand further putting pressure on ADR and pushing occupancy to record high levels. Accordingly we expect another good year in 2016. Hal ini mungkin karena 
+should drive demand further putting pressure on ADR and pushing occupancy to record high levels. Accordingly we expect another good year in 2016. 
 
+Target Feature (is_canceled):
+
+1 : Cancel (positif)
+0 : No Cancel (negatif)
+
+## [Project Stakeholders:](https://example.com)
+Project Stakeholders:
+- Marketing & Sales Departement : Departement ini bertanggungjawab untuk memaksimalkan revenue dengan cara melakukan beberapa strategi marketing (ex: promosi/diskon) kepada pelanggan, sehingga dengan model ini Marketing dan Sales Departement bisa mengetahui pelanggan yang tepat untuk diberi promosi/diskon.
+- Revenue Management : Salah satu tugas Finance Departement adalah mengatur pemasukan dan pengeluaran keuangan perusahaan yang salah satunya diakibatkan dari promosi/campaign yang diadakan Marketing dan Sales Departement.
+
+Pada dasarnya, kedua departement ini saling berkesinambungan dan memiliki pertanyaan/tujuan yang sama, yaitu bagaimana caranya memaksimalkan revenue perusahaan.
+
+Analytic Approach:
+Jadi yang akan kita lakukan adalah menganalisis data untuk menemukan pola yang membedakan pelanggan yang akan membatalkan pesanan atau tidak.
+
+Kemudian kita akan membangun model supervised machine learning klasifikasi yang akan membantu perusahaan untuk dapat memprediksi pelanggan yang akan membatalkan pesanan atau tidak.
+
+Metric Evaluation:
+Type I Error: False Positive Kondisi di mana pelanggan terprediksi membatalkan pesanan padahal kenyataannya tidak membatalkan pesanan Konsekuensinya: promosi tidak tepat sasaran, sehingga revenue tidak maksimal. Tanpa mengadakan marketing, pihak hotel bisa mendapatkan 101 USD.
+
+Type II Error: False Negative Kondisi di mana pelanggan terprediksi tidak membatalkan pesanan padahal kenyataannya membatalkan pesanan Konsekuensinya: pihak hotel kehilangan potential pelanggan dan tentu saja berdampak pada kehilangan revenue. Berdasarkan dataset ini, rata-rata biaya marketing adalah 10.07 - 10.14 EUR. Sehingga, untuk worst case-nya pihak hotel mendapatkan ADR sekitar 113.2EUR tanpa biaya marketing.
 
 Sources :
 [1] [Nama Tampil]([https://example.com](https://assets-eu-01.kc-usercontent.com/6bb3df3c-b648-01ae-2357-22fa5c7d5f19/93b732c7-e612-4890-88f4-31d2996a52eb/Portugal%20Hotel%20Market%20Performance%202023))
@@ -51,3 +71,4 @@ Sources :
 [4] https://algarveresorts.net/en/promocoes/ver/6
 [5] https://myportugalholiday.com/portugal-guides/portugal-september.html#google_vignette
 [6] https://www.sciencedirect.com/science/article/pii/S2352340918315191 
+[7] https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/what-average-marketing-budget-for-small-business#:~:text=1.-,Start%20by%20researching%20your%20industry,%E2%80%94between%205%20and%2010%25.

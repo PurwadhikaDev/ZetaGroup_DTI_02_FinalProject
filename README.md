@@ -5,9 +5,8 @@ Group Contibutors :
 2. Diah Purnamaningsih Mulyawan
 3. Kezia Patricia Fadli
 
-## BUSINESS PROBLEM ANALYTICS 
-Industri lodging(Perhotelan) di Portugal mengalami tantangan besar terkait pembatalan reservasi pelanggan, yang berdampak pada penurunan revenue dan efisiensi operasional. 
-Dataset yang digunakan berasal dari Property Management System (PMS) [6], yang mencatat berbagai aspek reservasi, termasuk status pembatalan, harga kamar (ADR), lama menginap, dan lainnya. 
+## [Business Problem Analytics:](https://example.com)
+Industri lodging(Perhotelan) di Portugal mengalami tantangan besar terkait pembatalan reservasi pelanggan, yang berdampak pada penurunan revenue dan efisiensi operasional. memiliki dataset yang telah diekstrak dari database hotel (Property Management System (PMS) [6], yang mencatat berbagai aspek reservasi, termasuk status pembatalan, harga kamar (ADR), lama menginap, dan lainnya. 
 Industri perhotelan termasuk dalam sektor lodging, yang berperan penting dalam menyediakan akomodasi bagi wisatawan domestik maupun internasional. 
 
 Dari laporan industry Crishty & CO, 2023 [3]. Sebelumnya, lebih dari 28.4 juta wisatawan mengunjungi Portugal, berkontribusi hampir 16% terhadap GDP negara. 
@@ -54,21 +53,22 @@ Project Stakeholders:
 
 Pada dasarnya, kedua departement ini saling berkesinambungan dan memiliki pertanyaan/tujuan yang sama, yaitu bagaimana caranya memaksimalkan revenue perusahaan.
 
-Analytic Approach:
+## [Analytic Approach:](https://example.com)
 Jadi yang akan kita lakukan adalah menganalisis data untuk menemukan pola yang membedakan pelanggan yang akan membatalkan pesanan atau tidak.
 
 Kemudian kita akan membangun model supervised machine learning klasifikasi yang akan membantu perusahaan untuk dapat memprediksi pelanggan yang akan membatalkan pesanan atau tidak.
 
-Metric Evaluation:
+## [Metric Evaluation:](https://example.com)
 Type I Error: False Positive Kondisi di mana pelanggan terprediksi membatalkan pesanan padahal kenyataannya tidak membatalkan pesanan Konsekuensinya: promosi tidak tepat sasaran, sehingga revenue tidak maksimal. Tanpa mengadakan marketing, pihak hotel bisa mendapatkan 101 USD.
 
 Type II Error: False Negative Kondisi di mana pelanggan terprediksi tidak membatalkan pesanan padahal kenyataannya membatalkan pesanan Konsekuensinya: pihak hotel kehilangan potential pelanggan dan tentu saja berdampak pada kehilangan revenue. Berdasarkan dataset ini, rata-rata biaya marketing adalah 10.07 - 10.14 EUR. Sehingga, untuk worst case-nya pihak hotel mendapatkan ADR sekitar 113.2EUR tanpa biaya marketing.
 
-Sources :
+## [Sources:](https://example.com)
+
 [1] [Nama Tampil]([https://example.com](https://assets-eu-01.kc-usercontent.com/6bb3df3c-b648-01ae-2357-22fa5c7d5f19/93b732c7-e612-4890-88f4-31d2996a52eb/Portugal%20Hotel%20Market%20Performance%202023))
-[2] https://www.pwc.ch/en/publications/2016/european-cities-hotel-forecast-2016-2017.pdf 
-[3] https://hospitalitytech.com/global-cancellation-rate-hotel-reservations-reaches-40-average 
-[4] https://algarveresorts.net/en/promocoes/ver/6
-[5] https://myportugalholiday.com/portugal-guides/portugal-september.html#google_vignette
-[6] https://www.sciencedirect.com/science/article/pii/S2352340918315191 
-[7] https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/what-average-marketing-budget-for-small-business#:~:text=1.-,Start%20by%20researching%20your%20industry,%E2%80%94between%205%20and%2010%25.
+[2] [Nama Tampil](https://www.pwc.ch/en/publications/2016/european-cities-hotel-forecast-2016-2017.pdf)
+[3] [Nama Tampil](https://hospitalitytech.com/global-cancellation-rate-hotel-reservations-reaches-40-average) 
+[4] [Nama Tampil](https://algarveresorts.net/en/promocoes/ver/6)
+[5] [Nama Tampil](https://myportugalholiday.com/portugal-guides/portugal-september.html#google_vignette)
+[6] [Nama Tampil](https://www.sciencedirect.com/science/article/pii/S2352340918315191) 
+[7] [Nama Tampil](https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/what-average-marketing-budget-for-small-business#:~:text=1.-,Start%20by%20researching%20your%20industry,%E2%80%94between%205%20and%2010%25.)

@@ -64,8 +64,10 @@ Type II Error: False Negative Kondisi di mana pelanggan terprediksi tidak membat
 
 
 ## [Tableau:](https://example.com)
-https://public.tableau.com/shared/9KZYM93CF?:display_count=n&:origin=viz_share_link
-![image](https://github.com/user-attachments/assets/8901a8b7-f59e-43f5-b236-93ad791b932d)
+Tableau link: https://public.tableau.com/shared/9KZYM93CF?:display_count=n&:origin=viz_share_link
+
+![image](https://github.com/user-attachments/assets/28769744-9855-48d4-9cf2-28dd6ccbc6e6)
+
 
 
 ## [Sources:](https://example.com)

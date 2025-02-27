@@ -6,61 +6,55 @@ Group Contibutors :
 3. Kezia Patricia Fadli
 
 ## [Business Problem Analytics:](https://example.com)
-Terdapat sebuah perusahaan yang bergerak dibidang hospitality industry-khususnya perhotelan-dan berlokasi di Portugal. memiliki dataset yang telah diekstrak dari database hotel (Property Management System (PMS) [6], yang mencatat berbagai aspek reservasi, termasuk status pembatalan, harga kamar (ADR), lama menginap, dan lainnya. Industri perhotelan termasuk dalam sektor lodging, yang berperan penting dalam menyediakan akomodasi bagi wisatawan domestik maupun internasional. 
+A company operating in the hospitality industry, specifically in the hotel sector, is based in Portugal. The dataset has been extracted from the hotel's Property Management System (PMS), which records various aspects of reservations, including cancellation status, room rates (ADR), length of stay, and more. The hospitality industry falls under the lodging sector, which plays a crucial role in providing accommodation for both domestic and international travelers. 
 
-Dari laporan industry Crishty & CO, 2023 [3]. Sebelumnya, lebih dari 28.4 juta wisatawan mengunjungi Portugal, berkontribusi hampir 16% terhadap GDP negara. 
-Wilayah seperti Lisbon, Algarve, dan Madeira menjadi pusat wisata utama, dengan lebih dari 70% dari total menginap berasal dari turis internasional. 
-Perubahan tren wisata juga terlihat, Portugal telah melampaui Spanyol sebagai sumber utama wisatawan di Lisbon. 
-Laporan industry, "Staying Power”  memprediksi Occupancy Rate meningkat pada 2016 dan 2017 di Lisbon, tetapi hasil analisis kami justru menunjukkan penurunan, terutama di City Hotel. 
-Ada beberapa kemungkinan penyebabnya:
-•	Over-Supply Hotel: Lisbon mengalami lonjakan jumlah hotel baru, yang meningkatkan persaingan dan berdampak pada okupansi hotel tertentu.
-•	Perubahan Tren Wisatawan: Faktor event global, keamanan, dan ekonomi menggeser pola perjalanan, dengan preferensi lebih tinggi ke Resort Hotel dibanding City Hotel.
+According to the Crishty & CO Industry Report (2023) [3], more than 28.4 million tourists visited Portugal, contributing nearly 16% to the country's GDP. Regions such as Lisbon, Algarve, and Madeira are the main tourist hubs, with more than 70% of total stays coming from international tourists.
 
-Menurut laporan industry Staying Power, 2015 -2017[2], melaporkan jika, Portugal mengalami pertumbuhan ekonomi 1.6%-1.7%,dengan wisatawan meningkat akibat melemahnya Euro dan meningkatnya konektivitas penerbangan. 
-Namun, beberapa faktor global memengaruhi wisatawan, seperti: 
-- Ketidakpastian ekonomi seperti Brexit atau serangan teror dapat menyebabkan penurunan perjalanan bisnis, sehingga meningkatkan Cancellation Ratio di City Hotel (0.44) dan menurunkan Occupancy rgrowth (-11% di 2016, -6% di 2017).
-  Dalam analisis kami, City Hotel lebih terdampak oleh faktor global karena banyak wisatawannya adalah pebisnis atau peserta event internasional(Group).
-  Wisatawan "contract" dan "group" umumnya sudah merencanakan perjalanan jauh-jauh hari,
-  sehingga Cancellation Ratio di Resort Hotel lebih rendah (0.31) dan Occupancy rate lebih baik ( 67%-79%) dengan occupancy growth (-5% &  -10%).
-  Dalam analysis kami, Resort Hotel lebih stabil karena didukung oleh contract dan group hotel, yang cenderung tidak terlalu bergantung pada faktor ekonomi dan politik. 
--	Fluktuasi mata uang (melemahnya Euro) seharusnya meningkatkan wisatawan dari luar zona Euro, tetapi dalam dataset kami, justru City Hotel mengalami penurunan okupansi.
-  Ini bisa terjadi jika wisatawan lebih memilih destinasi resort untuk liburan panjang dibanding perjalanan bisnis ke pusat kota. 
+There is also a noticeable shift in travel trends, where Portugal has surpassed Spain as the primary source of tourists in Lisbon. The industry report "Staying Power" predicted that occupancy rates would increase in 2016 and 2017 in Lisbon. However, our analysis revealed a decline in occupancy rates, especially in City Hotels.
 
-Cancellation Rate di dataset kami mencapai 30% untuk city hotel dan 23.7% untuk resort, lebih RENDAH dibanding rata-rata global yang berkisar 33%-40% (Hospitalitytech, 2019)[3]. 
-Resort Hotel lebih stabil dengan Cancellation Ratio 0.31. Cancellation Rate yang tinggi di City Hotel bisa disebabkan oleh segmen wisatawan bisnis yang lebih fleksibel dalam mengubah rencana perjalanan. 
-Dan pada dataset kami Custoemr tyoe yang paling memepngaruhi adalah transient (customer flexible).
+Some possible reasons include:
+- Over-Supply of Hotels: Lisbon experienced a surge in new hotels, increasing competition and impacting occupancy in certain hotels.
+- Changing Travel Trends: Global events, security concerns, and economic factors have shifted travel preferences, with a higher preference for Resort Hotels over City Hotels.
 
-Untuk Dampak Musiman (Seasonality) terhadap Occupancy Rate, pada;
-•	Peak Season (Sep-Nov) = Okupansi tinggi, terutama di Resort Hotel. Salah satu direct booking web Agarve resort Portugal, 
-pada awal musim gugur ini diadakan off season promo 15% dengan lead time of staying 5-6 hari [4]. 
-Dan september = October adalah waktu yang tepat untuk berlibur ke Agarve karean pergantian dari musim dingin[5].
-•	Low Season (Apr-Jun) = Stabil tetapi lebih rendah dibanding puncak wisata.
-•	Off-Season (Des & Ags) pada musim dingin dan akhir musim panas = Okupansi turun signifikan, terutama di City Hotel.
-•	ADR meningkat di City Hotel dengan perolehan , 32.5 EUR pada 2015, 36.2 EUR dan 2016, dan 38.9EUR pada 2017, kemungkinan karena strategi harga yang terlalu tinggi, sehingga okupansi menurun sekitar -11% & -5%. Sedangkankan pada laporan staying power 2015-2017 [2], ADR Lisbon(jika didataset kami city hotel adalah data dari beberapa atau salah satu hotel di Lisbon)
-mengalami peningkatan 95-99 EUR, dikarenakan tahun 2016 terdapat big event seperti s the Web Summit (wrested from Dublin) and Diabetes, as well as new air routes,
-should drive demand further putting pressure on ADR and pushing occupancy to record high levels. Accordingly we expect another good year in 2016. 
+The Staying Power Industry Report (2015-2017) [2] states that Portugal experienced economic growth of 1.6%-1.7%, with increased tourism due to a weaker Euro and improved airline connectivity. However, global factors have influenced tourist behavior, such as:
+- Economic Uncertainty: Events like Brexit or terrorist attacks led to a decline in business travel, increasing the cancellation ratio in City Hotels to 0.44 and decreasing occupancy growth (-11% in 2016, -6% in 2017). City Hotels are more impacted by global factors since their guests often include business travelers or international event participants (groups). Resort Hotels are more stable, with a lower cancellation ratio (0.31) and occupancy rates ranging between 67%-79%, even with a slight decline in occupancy growth (-5% & -10%).
+- Currency Fluctuations: A weaker Euro was expected to attract more non-Eurozone tourists, but City Hotels still faced declining occupancy. This suggests that tourists preferred resorts for long vacations rather than business trips to city centers.
+
+The cancellation rate in our dataset is 30% for City Hotels and 23.7% for Resort Hotels. Lower than the global average (33%-40%) (HospitalityTech, 2019) [3]. Resort Hotels have a lower cancellation ratio (0.31), likely due to contract and group bookings, which are less affected by economic and political factors. City Hotels have a higher cancellation rate due to their customer base, which includes business travelers with flexible schedules.
+The most influential customer type in our dataset is "transient" (flexible customers).
+
+Seasonality Impact on Occupancy Rates:
+- Peak Season (Sept–Nov) = High occupancy, especially in Resort Hotels. For example, a direct booking website for Algarve resorts in Portugal offers a 15% off-season promo in early autumn with an average stay lead time of 5-6 days [4]. September–October is an ideal time to visit Algarve as the season transitions from winter [5].
+- Low Season (Apr–Jun) = Stable but lower than peak season.
+- Off-Season (Dec & Aug) = Significant occupancy decline, especially in City Hotels.
+- ADR (Average Daily Rate) Trends in City Hotels within 32.5 EUR in 2015, 36.2 EUR in 2016 and 38.9 EUR in 2017. This increase in ADR suggests a pricing strategy that may have been too aggressive, contributing to an occupancy decline of -11% & -5%.
+According to the Staying Power Report (2015-2017) [2], Lisbon’s ADR increased to 95-99 EUR due to major events in 2016, such as The Web Summit (moved from Dublin) and Diabetes Conference as well as new airline routes.
+These events drove higher demand, pushing ADR up and increasing occupancy.
 
 Target Feature (is_canceled):
 
-1 : Cancel (positif)
-0 : No Cancel (negatif)
+1 : Cancel (positive)
+0 : No Cancel (negative)
 
 ## [Project Stakeholders:](https://example.com)
 Project Stakeholders:
-- Marketing & Sales Departement : Departement ini bertanggungjawab untuk memaksimalkan revenue dengan cara melakukan beberapa strategi marketing (ex: promosi/diskon) kepada pelanggan, sehingga dengan model ini Marketing dan Sales Departement bisa mengetahui pelanggan yang tepat untuk diberi promosi/diskon.
-- Revenue Management : Salah satu tugas Finance Departement adalah mengatur pemasukan dan pengeluaran keuangan perusahaan yang salah satunya diakibatkan dari promosi/campaign yang diadakan Marketing dan Sales Departement.
+- Marketing & Sales Departement : Responsible for maximizing revenue through marketing strategies (e.g., promotions/discounts). This model will help identify the right customers for promotions, ensuring a more targeted approach.
+- Revenue Management : One of The Finance Department jobdesc are manages the company's income and expenses, including those from marketing campaigns.
 
-Pada dasarnya, kedua departement ini saling berkesinambungan dan memiliki pertanyaan/tujuan yang sama, yaitu bagaimana caranya memaksimalkan revenue perusahaan.
+Since marketing and sales impact revenue, both departments need to work together to maximize profits.
 
 ## [Analytic Approach:](https://example.com)
-Jadi yang akan kita lakukan adalah menganalisis data untuk menemukan pola yang membedakan pelanggan yang akan membatalkan pesanan atau tidak.
+We will analyze the dataset to identify patterns that differentiate customers who will cancel their booking vs. those who won’t.
 
-Kemudian kita akan membangun model supervised machine learning klasifikasi yang akan membantu perusahaan untuk dapat memprediksi pelanggan yang akan membatalkan pesanan atau tidak.
+Then, we will build a supervised machine learning classification model to help the company predict cancellations and take proactive action.
 
 ## [Metric Evaluation:](https://example.com)
-Type I Error: False Positive Kondisi di mana pelanggan terprediksi membatalkan pesanan padahal kenyataannya tidak membatalkan pesanan Konsekuensinya: promosi tidak tepat sasaran, sehingga revenue tidak maksimal. Tanpa mengadakan marketing, pihak hotel bisa mendapatkan 101 EUR.
+- Type I Error: False Positive Cindition where the model predicts a customer will cancel, but in reality, they do not.
+Consequence: Misguided marketing efforts, leading to suboptimal revenue. Financial Impact: Without marketing intervention, the hotel could still earn 101 EUR.
 
-Type II Error: False Negative Kondisi di mana pelanggan terprediksi tidak membatalkan pesanan padahal kenyataannya membatalkan pesanan Konsekuensinya: pihak hotel kehilangan potential pelanggan dan tentu saja berdampak pada kehilangan revenue. Berdasarkan dataset ini, rata-rata biaya marketing adalah 10.07 - 10.14 EUR. Sehingga, untuk worst case-nya pihak hotel mendapatkan ADR sekitar 113.2EUR tanpa biaya marketing.
+- Type II Error: False Negative Condition is where the model predicts a customer will not cancel, but in reality, they do.
+Consequence: Lost potential revenue due to missed marketing opportunities.
+Financial Impact: The marketing cost average per customer is 10.07 - 10.14 EUR and the worst-case scenario the hotel could earn 113.2 EUR ADR without marketing costs.
 
 
 ## [Tableau:](https://example.com)

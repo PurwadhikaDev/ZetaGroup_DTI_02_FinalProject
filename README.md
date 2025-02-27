@@ -62,6 +62,12 @@ Type I Error: False Positive Kondisi di mana pelanggan terprediksi membatalkan p
 
 Type II Error: False Negative Kondisi di mana pelanggan terprediksi tidak membatalkan pesanan padahal kenyataannya membatalkan pesanan Konsekuensinya: pihak hotel kehilangan potential pelanggan dan tentu saja berdampak pada kehilangan revenue. Berdasarkan dataset ini, rata-rata biaya marketing adalah 10.07 - 10.14 EUR. Sehingga, untuk worst case-nya pihak hotel mendapatkan ADR sekitar 113.2EUR tanpa biaya marketing.
 
+
+## [Tableau:](https://example.com)
+https://public.tableau.com/shared/9KZYM93CF?:display_count=n&:origin=viz_share_link
+![image](https://github.com/user-attachments/assets/8901a8b7-f59e-43f5-b236-93ad791b932d)
+
+
 ## [Sources:](https://example.com)
 
 [1] [Nama Tampil]([https://example.com](https://assets-eu-01.kc-usercontent.com/6bb3df3c-b648-01ae-2357-22fa5c7d5f19/93b732c7-e612-4890-88f4-31d2996a52eb/Portugal%20Hotel%20Market%20Performance%202023))
